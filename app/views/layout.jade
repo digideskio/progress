@@ -1,0 +1,12 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1= title
+    ul#navigation
+      each name, link in tabs
+        li
+          a(href='#{link}') #{name}
+    div#content!= body
