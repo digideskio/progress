@@ -1,3 +1,6 @@
+_.extend(exports
+        ,require('./economic')
+        ,require('./environmental'));
 
 /*
  * GET home page.
